@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sigmar', cursive;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+body {
+   background: rgb(201,147,29);
+     background: linear-gradient(90deg, rgba(201,147,29,1) 47%, rgba(241,167,54,1) 51%);
+     text-align: center;
+         
+}
+
+.titulo:hover {
+    color: rgb(255, 0, 0);
+    transition: 2s;
+    
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.665);
+    border-radius: 20px 15px 10px;
+    box-shadow: 10px 5px 2px;
+    margin: 200px;
+    
+}
+
+.digite-tarefa {
+    margin: 20px;
+    font-size: xx-large;
+}
+
+.digite-tarefa:hover{
+    transition: 2s;
+    color: red;
+}
+
+.tarefas {
+    border: none;
+    padding: 3px;
+}
+
+button {
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.btn-tarefa:hover {
+    transition: 1.5s;
+    background-color: rgb(15, 203, 15);
+    color: white;
+}
+
+
+
+
